@@ -4,7 +4,7 @@ This repository contains code pertaining to research for the Biorxiv paper by Ak
 
 The main goal of the research was to design and implement a scheme for encoding digital information into DNA. This repository includes:
 
-* Codec for reading and writing DNA-encoded data
+* Codec for reading and writing DNA-encoded data.
 * Code for partitioning a large sequence of encoded DNA into smaller pieces.
 * Code for using error-correction capacity of the encoding scheme to correct mutations.
 * Code for simulating mutations.
@@ -14,7 +14,9 @@ All of the code was written in Python 3, using PyCharm Community Edition as the 
 
 It is strongly recommended that, before running any file, you read through all the code that will be executed. In many cases it is expected that you specify parameters and input/output files in the section on top of each file, or in `constants.py` before you run.
 
-Some of the code as is may take more than a minute to run. In most cases the code will at least print some sort of progress information when this happens.
+### Note on performance
+
+Some of the code as is may take more than a minute to run, depending on hardware and parameters. In most cases the code will at least print some sort of progress information when this happens.
 
 ### Dependencies
 Various Python packages are used at several points in the project, as can be seen from the import statements. These were installed into the environment using the PyCharm "Project Interpreter" window, but they should also be installable with `pip` since that is what PyCharm uses.
