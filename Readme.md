@@ -8,8 +8,6 @@ The main goal of the research was to design and implement a scheme for encoding 
 * Code for partitioning a large sequence of encoded DNA into smaller pieces.
 * Code for using error-correction capacity of the encoding scheme to correct mutations.
 * Code for simulating mutations.
-* Code for simulating sequencing.
-* Monte Carlo simulations to simulate library sampling.
 
 ## Instructions for running code
 All of the code was written in Python 3, using PyCharm Community Edition as the IDE, on Windows 7. In principle Python is portable and all of this should work under any Python 3 environment (provided that module dependencies are satisfied) but I have not tested that.
