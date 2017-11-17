@@ -1,7 +1,5 @@
 # DNA information storage
 
-This repository contains code pertaining to research for the Biorxiv paper by Akhmetov A *et al.* 2016.
-
 The main goal of the research was to design and implement a scheme for encoding digital information into DNA. This repository includes:
 
 * Codec for reading and writing DNA-encoded data.
